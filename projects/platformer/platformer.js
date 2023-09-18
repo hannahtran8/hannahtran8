@@ -47,6 +47,7 @@ $(function () {
     createPlatform(800,600,200,20);
     createPlatform(45,460,200,20);
     createPlatform(300,380,160,20);
+    createPlatform(800,190,200,20)
 
 
 
@@ -58,6 +59,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("grace",600,275);
     createCollectable("grace",935,575);
+    createCollectable("grace",800,160)
 
 
 
@@ -68,6 +70,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("left",190,1000)
     createCannon("right",590,1000)
+    createCannon("right",140,1000)
 
 
 
