@@ -79,7 +79,7 @@ var init = function (window) {
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            if(circle.y > canvas.width){
+            if(circle.y > canvas.height){
                 circle.y = 0;
             }
 
